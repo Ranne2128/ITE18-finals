@@ -1,0 +1,121 @@
+/* General Body Styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    height: 100vh;
+}
+
+/* Container Styling */
+.container {
+    display: flex;
+    width: 100%;
+}
+
+/* Left Section Styling */
+.left-section {
+    background-image: url('/Images/Login\ Img.png'); 
+    background-size: cover;
+    background-position: center;
+    flex: 1;
+    color: white;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+.left-section h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.left-section p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.left-section a {
+    color: #f9c100;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.left-section hr {
+    border: 1px solid white;
+    margin: 20px 0;
+    width: 80%;
+}
+
+.login-btn {
+    background-color: #1a7801;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 150px;
+    text-align: center;
+}
+
+.login-btn:hover {
+    background-color: #145d01;
+}
+
+/* Right Section Styling */
+.right-section {
+    flex: 1;
+    background-color: #1a7801;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 80%;
+    max-width: 400px;
+}
+
+.form-container h2 {
+    margin-bottom: 20px;
+    color: #1a7801;
+    font-size: 24px;
+}
+
+.form-container input {
+    width: 100%;
+    padding: 12px;
+    margin: 12px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.signup-btn {
+    background-color: #f9c100;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.signup-btn:hover {
+    background-color: #dba600;
+}
+
+.logo-img {
+    width: 100px;
+    margin-bottom: 20px;
+}

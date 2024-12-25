@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Request Inbox</title>
+    <link rel="stylesheet" href="inbox.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <div class="logo">
+                <img src="/IMAGES/Untitled design (7).png" alt="Logo">
+            </div>
+            <ul class="nav">
+                <li class="active">Dashboard</li>
+                <li>Setting</li>
+                <li>Profile</li>
+                <li>Log Out</li>
+            </ul>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <header>
+                <button class="back-button">&#8592;</button> <!-- Back button -->
+                INBOX
+            </header>
+
+            <div class="inbox-container">
+                <div class="inbox-item">
+                    <input type="checkbox" id="item1">
+                    <label for="item1" class="checkbox-label"></label>
+                    <div class="inbox-details">
+                        <span class="name">Jessie Olaguer</span>
+                        <span class="message">Requested to borrow two DSLR Camera...</span>
+                    </div>
+                    <div class="inbox-date">Nov 11</div>
+                </div>
+
+                <div class="inbox-item">
+                    <input type="checkbox" id="item2">
+                    <label for="item2" class="checkbox-label"></label>
+                    <div class="inbox-details">
+                        <span class="name">John Doe</span>
+                        <span class="message">Lorem ipsum dolor sit amet...</span>
+                    </div>
+                    <div class="inbox-date">Nov 10</div>
+                </div>
+
+                <div class="inbox-item">
+                    <input type="checkbox" id="item3">
+                    <label for="item3" class="checkbox-label"></label>
+                    <div class="inbox-details">
+                        <span class="name">Jane Smith</span>
+                        <span class="message">Consectetur adipiscing elit...</span>
+                    </div>
+                    <div class="inbox-date">Nov 9</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

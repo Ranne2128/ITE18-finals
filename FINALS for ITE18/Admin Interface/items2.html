@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Items Page</title>
+    <link rel="stylesheet" href="items2.css"> <!-- Link to the CSS file -->
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <div class="logo">
+                <img src="/IMAGES/Untitled design (7).png" alt="Logo"> <!-- Placeholder for the logo image -->
+            </div>
+            <ul class="nav">
+                <li class="active">DASHBOARD</li>
+                <li>SETTING</li>
+                <li>PROFILE</li>
+                <li>LOG OUT</li>
+            </ul>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <header>
+                <button class="back-button">&#8592;</button> <!-- Back button -->
+                ITEMS
+            </header>
+            
+            <!-- Form Section -->
+            <div class="form-container">
+                <div class="action-buttons">
+                    <button class="add-button">ADD ITEM</button>
+                    <button class="update-button">UPDATE</button>
+                    <button class="delete-button">DELETE</button>
+                    <button class="history-button">HISTORY</button>
+                </div>
+
+                <form>
+                    <label for="description">DESCRIPTION:</label>
+                    <input type="text" id="description" name="description">
+
+                    <label for="name">NAME:</label>
+                    <input type="text" id="name" name="name">
+
+                    <label for="item-id">ITEM ID:</label>
+                    <input type="text" id="item-id" name="item-id">
+
+                    <label for="condition">CONDITION:</label>
+                    <input type="text" id="condition" name="condition">
+
+                    <button type="submit" class="done-button">DONE</button>
+                </form>
+            </div>
+
+            <!-- Footer -->
+            <footer>
+                Copyright &copy; 2024 Caraga State University
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
